@@ -1,6 +1,12 @@
 import React from "react";
 import vg from "../assets/web.png";
-
+import {
+  AiFillGoogleCircle,
+  AiFillBehanceCircle,
+  AiFillAmazonCircle,
+  AiFillInfoCircle,
+  AiFillCheckCircle,
+} from "react-icons/ai";
 const Home = () => {
   return (
     <>
@@ -32,6 +38,53 @@ const Home = () => {
             Numquam maxime nam sit, minima alias obcaecati vel exercitationem,
             nihil quod totam quasi iusto, quos quas.
           </p>
+        </div>
+      </div>
+      <div className="home4" id="brands">
+        <div>
+          <h1>Brands</h1>
+          <article>
+            <div
+              style={{
+                animationDelay: "0.2s",
+              }}
+            >
+              <AiFillGoogleCircle />
+              <p>Google</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.4s",
+              }}
+            >
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.6s",
+              }}
+            >
+              <AiFillBehanceCircle />
+              <p>Behance</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.8s",
+              }}
+            >
+              <AiFillInfoCircle />
+              <p>Info</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.8s",
+              }}
+            >
+              <AiFillCheckCircle />
+              <p>Check</p>
+            </div>
+          </article>
         </div>
       </div>
     </>
