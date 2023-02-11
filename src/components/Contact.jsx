@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Contact = () => {
   const defaultData = {
@@ -7,6 +7,7 @@ const Contact = () => {
     message: "",
   };
   const [data, setData] = useState(defaultData);
+  const [info, setInfo] = useState(false);
 
   const handleChange = (e) => {
     setData({
@@ -14,17 +15,27 @@ const Contact = () => {
       [e.target.name]: e.target.value,
     });
   };
-
-  console.log(data);
+  useEffect(() => {
+    setTimeout(() => info && setInfo(false), 5000);
+  }, [info]);
   const handleSubmit = (event) => {
     event.preventDefault();
+    setInfo(true);
   };
 
   const { name, email, message } = data;
   return (
     <div className="contact">
       <main>
-        <div className="message"></div>
+        {info && (
+          <div className="message">
+            <div>
+              <h1>Hi {name}</h1>
+              <p>Your message has sent to us...</p>
+              <p>We will contact you shortly on your {email} email account</p>
+            </div>
+          </div>
+        )}
         <h1>Contact Us</h1>
         <form onSubmit={handleSubmit}>
           <div>
