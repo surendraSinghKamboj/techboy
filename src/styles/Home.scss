@@ -124,10 +124,10 @@
       margin: 2rem 0;
       justify-content: center;
       > div {
-        animation: imgup .7s linear infinite alternate;
+        animation: imgup 2s linear infinite alternate;
         margin: 1rem;
-        height: 10rem;
-        width: 10rem;
+        height: 7rem;
+        width: 7rem;
         background-color: $first;
         border-radius: 50%;
         display: flex;
