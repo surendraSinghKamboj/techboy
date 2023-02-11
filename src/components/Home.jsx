@@ -20,9 +20,9 @@ const Home = () => {
         <img src={vg} alt="" />
         <div>
           <p>
-            We are your one and only solution to the tech problems you face
-            every day. We are leading tech company whose aim is to problem
-            solving ability in children.
+            As a premier technology company, our mission is to enhance
+            problem-solving skills in children and provide a one-stop solution
+            for all of the daily technical challenges you encounter.
           </p>
         </div>
       </div>
@@ -30,13 +30,16 @@ const Home = () => {
         <div>
           <h1>Who we are</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-            iusto ipsum, maxime esse, dolor blanditiis accusantium minima harum,
-            quo aut quis nulla et unde quam a? Necessitatibus vitae officia
-            corporis earum explicabo nemo aperiam. Quam quidem mollitia dolore
-            voluptas soluta perferendis nihil odit, eum unde ad, fugiat iste!
-            Numquam maxime nam sit, minima alias obcaecati vel exercitationem,
-            nihil quod totam quasi iusto, quos quas.
+            At our company, we are a team of tech experts who are dedicated to
+            delivering innovative and effective solutions. With a focus on the
+            latest trends in technology, we specialize in three main areas:
+            cyber security, web development, and artificial intelligence. Our
+            goal is to provide the highest quality services to meet the needs of
+            our clients, and help them stay ahead in today's rapidly evolving
+            technological landscape. Whether you're looking for enhanced
+            protection against cyber threats, need a new website, or want to
+            incorporate AI into your business processes, we are here to help you
+            every step of the way.
           </p>
         </div>
       </div>

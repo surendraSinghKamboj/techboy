@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="message">
             <div>
               <h1>Hi {name}</h1>
-              <p>Your message has sent to us...</p>
+              <p>Your message has been sent to us...</p>
               <p>We will contact you shortly on your {email} email account</p>
             </div>
           </div>
