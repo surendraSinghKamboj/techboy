@@ -6,10 +6,6 @@ import Contact from './components/Contact';
 import Services from './components/Services';
 
 import './styles/App.scss';
-import './styles/Header.scss';
-import './styles/Footer.scss';
-import './styles/Home.scss';
-import './styles/Contact.scss';
 function App() {
   return (
     <Router>

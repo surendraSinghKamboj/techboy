@@ -5,6 +5,8 @@ import {
   AiFillGoogleCircle,
   AiFillGithub,
 } from "react-icons/ai";
+import "./styles/Footer.scss";
+
 const Footer = () => {
   return (
     <footer>
