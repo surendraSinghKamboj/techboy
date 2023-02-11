@@ -7,7 +7,7 @@ import {
   AiFillInfoCircle,
   AiFillCheckCircle,
 } from "react-icons/ai";
-import "./styles/Home.scss";
+import "../styles/Home.scss";
 
 const Home = () => {
   return (

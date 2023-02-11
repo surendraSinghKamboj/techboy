@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import React from "react";
-import './styles/Header.scss';
+import '../styles/Header.scss';
 
 const Header = () => {
   return (
